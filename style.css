@@ -4,7 +4,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "DM Sans";
-    color: rgba(240, 248, 255, 0.95);
+    /*color: rgba(240, 248, 255, 0.95);*/
+    color: #FFD700;
 }
 
 body{
@@ -51,4 +52,5 @@ button{
     margin: 10px 0;
     font-size: 14px;
     border-left: 6px solid #FFD700;
+    color: rgba(240, 248, 255, 0.95);
 }
