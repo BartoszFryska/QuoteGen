@@ -26,10 +26,10 @@
                     return data.content + "-" + data.author;  
                 } catch(error) {
                     console.log("Error: " + error);
-                    return "Fetching a quote from https://api.quotable.io/random failed. Please try again later.";
+                    return "Fetching a quote from https://api.quotable.io/random failed - Please try again later.";
                 }
             }
-
+            
             async function GenerateQuote() {
                 const quoteElement = document.querySelector("#quote");
                 quoteElement.textContent = "Finding the best quote...";
@@ -37,7 +37,7 @@
                 quoteElement.textContent = quote;
             }
 
-            const copyBtn = document.querySelector("#copyBtn");
+            const copyBtn = document.querySelector("#coppyBtn");
             copyBtn.addEventListener("click", ()=>{
                 const quoteElement = document.querySelector("#quote");
                 const quote = quoteElement.textContent;
